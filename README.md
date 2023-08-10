@@ -6,7 +6,7 @@
 
 O projeto tem como intuito mostrar que o AWS Simple Storage Serve (S3) não apenas armazena objetos, mas também pode hospedar um site completamnete estático feito em HTML, CSS e JavaScript e assim aproveitarmos a escalabilidade e disponilidade que a AWS oferece.
 
-Lembrando que a AWS oferece um nível gratuito no S3, onde podemos usar para hopesdar nosso site sem custos até 5GB e para criar um website é uma quantidade razoável.
+Lembrando que a AWS oferece um nível gratuito no S3, onde podemos usar para hospedar nosso site sem custos até 5GB e para criar um website é uma quantidade razoável.
 
 
 ## Tecnologias usadas
