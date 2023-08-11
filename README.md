@@ -4,7 +4,7 @@
 ## 🧐 Sobre <a name="Sobre"></a>
 
 
-O projeto tem como intuito mostrar que o AWS Simple Storage Serve (S3) não apenas armazena objetos, mas também pode hospedar um site completamnete estático feito em HTML, CSS e JavaScript e assim aproveitarmos a escalabilidade e disponilidade que a AWS oferece.
+O projeto tem como intuito mostrar que a AWS S3 (Simple Storage Serve), não apenas armazena objetos, mas também pode hospedar um site completamnete estático feito em HTML, CSS e JavaScript e assim aproveitarmos a escalabilidade e disponilidade que a AWS oferece.
 
 Lembrando que a AWS oferece um nível gratuito no S3, onde podemos usar para hospedar nosso site sem custos até 5GB e para criar um website é uma quantidade razoável.
 
@@ -13,7 +13,7 @@ Lembrando que a AWS oferece um nível gratuito no S3, onde podemos usar para hos
 - HTML / CSS / JavaScript
   
   
-## Etapas de criação na AWS
+## Etapas da criação na AWS
 - Criação de um bucket;
 - Upload dos arquivos dentro do bucket;
 - A verificação das informações do arquivo index.html;
@@ -21,7 +21,7 @@ Lembrando que a AWS oferece um nível gratuito no S3, onde podemos usar para hos
 - Configuração para que o bucket de armazenamento comum se torne um de site e,
 - Definições de permissões e configurações de segurança para o bucket se torna público.
 
-Na política do bucket, foi colocado um código Json que é uma configuração ideal para website, pois permite que o acesso seja feito sem que alguém altere o conteúdo do site.
+Na política do bucket, foi colocado um código JSON, que é uma configuração ideal para um website, pois permite que o acesso seja feito sem que alguém altere o seu conteúdo.
 
 ```bash
 {
@@ -47,8 +47,8 @@ Na política do bucket, foi colocado um código Json que é uma configuração i
 
 <img width="700" alt="Imagem2" src="https://github.com/fariasangelica/site_estatico_aws/assets/98922466/7cf171c9-ee19-44ba-a875-6e701282e936">
 
-## Configurando o controle de versionamento para o site
-O controle de versão não é habilitado por padrão quando criamos os nossos buckets, então foi feita a configuração para que todas as vezes que o site por atualizado, ele mantenha o arquivo original.
+## Configurando o controle de versionamento do site
+O controle de versão não é habilitado por padrão quando criamos um bucket, então foi feita a configuração para que todas as vezes que o site por atualizado, ele mantenha o arquivo original.
 
 
 ## Etapas da configuração do versionamento
