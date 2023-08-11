@@ -77,7 +77,7 @@ http://estaticoawss3.s3-website.us-east-2.amazonaws.com/
 
 ## ✍️ Autora <a name="author"></a>
 
-- Angelica Farias Oliveira - https://www.linkedin.com/in/angelica-farias/
+- Angelica Farias - https://www.linkedin.com/in/angelica-farias/
 
 ## 📌 Conhecimento guiado por: <a name="author"></a>
 
